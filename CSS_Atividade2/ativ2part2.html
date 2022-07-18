@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS_Atividade2/cssativ2.css" />
+    <title>Atividade 02part2-css</title>
+  </head>
+  <style>
+    div article h1 {
+      color: green;
+    }
+    div article p {
+      color: blue;
+    }
+    h1 {
+      color: blue;
+    }
+
+    div p > em {
+      color: red;
+    }
+    p ~ p em {
+      color: blue;
+    }
+  </style>
+  <body>
+    <div id="principal">
+      <h1>TITULO AZUL</h1>
+      <p>Paragrafo com <em>enfase nessa parte vermelho aqui</em>.</p>
+      <p>Paragrafo com <em> enfase nessa parte azul aqui</em>.</p>
+      <article>
+        <h1>TITULO INTERNO VERDE</h1>
+        <p>PARAGRAFO COM COR AZUL</p>
+      </article>
+    </div>
+  </body>
+</html>
