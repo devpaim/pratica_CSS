@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: orange;
+  height: 25vh;
+  width: 100vw;
+}
+nav {
+  background-color: green;
+  height: 50vh;
+  width: 15vw;
+}
+main {
+  background-color: yellow;
+  height: 50vh;
+  width: 70vw;
+}
+aside {
+  background-color: blue;
+  height: 50vh;
+  width: 15vw;
+  grid-area: aside;
+}
+
+footer {
+  background-color: red;
+  width: 100vw;
+  height: 25vh;
+}
+header, nav, main, aside, footer {
+float: left;
+}
