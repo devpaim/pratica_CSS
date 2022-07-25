@@ -1,0 +1,18 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
+main{
+  height: 200vh;
+}
+nav {
+  margin: 21px;
+  background: blue;
+  position: sticky;
+  top: 0px;
+}
+nav > ul > li {
+  display: inline;
+  color: #FFF;
+}

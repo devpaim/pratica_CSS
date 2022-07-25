@@ -1,0 +1,16 @@
+.coluna {
+border: solid 1px black;
+padding: 10px;
+margin: 0;
+}
+.linha {
+  position: relative;
+  display: flex;
+}
+.tabela {
+  display: table-cell;
+}
+.linha:nth-child(odd)
+ {
+  background-color: #E0E0E0;
+}
