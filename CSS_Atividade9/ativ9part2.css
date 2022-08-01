@@ -1,0 +1,23 @@
+.tabela {
+  display: table; 
+  padding: 0;
+}
+.row {
+  display: table-row;
+}
+div {
+  display: table-cell;
+  padding: 8px;
+  border: solid 1px black;
+}
+.row:first-child {
+  background-color: blue;
+  color: white;
+}
+.row:nth-child(even)
+{
+  background-color: #FFFFFF;
+}
+.row + .row:nth-child(odd) {
+  background-color: #E0E0E0;
+}
