@@ -1,0 +1,10 @@
+.titulo_background {
+  background-color: bisque;
+  column-span: all;
+}
+body {
+  column-count:auto;
+  column-width: 250px;
+  column-gap: 30px;
+  column-rule: 5px blue dotted;
+}
