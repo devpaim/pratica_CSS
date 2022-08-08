@@ -1,0 +1,25 @@
+
+.main_button {
+  padding: 5px;
+ width: 200px;
+ height: 100px;
+ margin-top: 30vh;
+ margin-left: 30vw;
+ background-color: #0F0C33;
+ color: #FFF;
+ font-size: 50px;
+}
+
+.main_button:hover {
+  cursor:pointer;
+  animation: deslocamento 0.4s;
+}
+
+@keyframes deslocamento {
+  0% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+}
